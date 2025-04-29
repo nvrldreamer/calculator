@@ -61,3 +61,21 @@ button {
 button:hover {
     background-color: #f0aee0;
 }
+
+#imgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.tenor-gif-embed{
+    margin: 5px;
+    max-width: 300px;
+}
