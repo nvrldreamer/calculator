@@ -1,6 +1,12 @@
 var wynik = document.getElementById("wynik");
 var button = document.getElementById("btnEquals").addEventListener("click", calculate);
 
+var btnClear = document.getElementById("btnClear").addEventListener("click", () => {
+    wynik.value = ""
+    liczba_a = 0
+    liczba_b = 0
+});
+
 var liczba_a, liczba_b = 0;
 var operacja = "";
 
